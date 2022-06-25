@@ -9,4 +9,4 @@ WHERE title LIKE 'T%' AND rating='G;
 WHERE length(country)=5;
 
 5.SORU : SELECT COUNT(city) FROM city
-WHERE city LIKE '%r';
+WHERE city ILIKE '%r';
